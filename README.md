@@ -186,6 +186,8 @@ Mantener nombres de archivos y rutas tal como están en el README.
 
 No cambiar IDs de elementos HTML, ya que los JS dependen de ellos.
 
+repositorio github https://github.com/yurilealjaque/talento-digital-AlkeWallet.git
+
 
 
 
