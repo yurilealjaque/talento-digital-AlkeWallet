@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alke Wallet - Menú</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+
+<div class="container mt-5">
+
+    <header class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Alke Wallet</h1>
+        <button id="logoutBtn" class="btn btn-outline-danger">Cerrar Sesión</button>
+    </header>
+
+    <h2>Bienvenido, <span id="welcomeUser">Usuario</span></h2>
+
+    <div class="card p-4 my-4">
+        <p class="mb-1">Tu saldo actual</p>
+        <h3 id="currentBalance" class="text-success">$0</h3>
+        <small id="balanceDate">Actualizado al --/--/----</small>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-3 mb-3">
+            <div class="card p-3 text-center menu-option" onclick="location.href='deposit.html'">
+                 Depositar
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="card p-3 text-center menu-option" onclick="location.href='sendmoney.html'">
+               Transferir
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="card p-3 text-center menu-option" onclick="location.href='transactions.html'">
+                Historial
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="card p-3 text-center menu-option" onclick="location.href='withdraw.html'">
+                 Retirar
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/menu.js"></script>
+
+</body>
+</html>
